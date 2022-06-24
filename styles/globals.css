@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .work-bold {
+        @apply font-work-sans font-bold;
+    }
+    .work-extrabold {
+        @apply font-work-sans font-extrabold;
+    }
+    .inter-medium {
+        @apply font-inter font-medium;
+    }
+    .inter-semibold {
+        @apply font-inter font-semibold;
+    }
+    .mono-medium {
+        @apply font-mono font-medium;
+    }
+    .mono-bold {
+        @apply font-mono font-bold;
+    }
+}
