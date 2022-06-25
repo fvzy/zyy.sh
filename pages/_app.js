@@ -4,8 +4,15 @@ config.autoAddCss = false;
 
 import '../styles/globals.css'
 
+import NavBar from "../components/NavBar.tsx"
+
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <div className="p-6">
+        <NavBar />
+        <Component {...pageProps} />
+    </div>
+  )
 }
 
 export default MyApp
