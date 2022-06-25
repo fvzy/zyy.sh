@@ -18,7 +18,7 @@ module.exports = {
             "off-white": "#EDEDF0",
             "off-black": "#242424",
             "main": {
-                light: "#2A2E32",
+                light: "#2B2F33",
                 dark: "#757A80"
             },
             "sub": {
