@@ -5,6 +5,7 @@ module.exports = {
 	content: [
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
+        "./frames/**/*.{js,ts,jsx,tsx}",
     ],
 	theme: {
         colors: {
@@ -16,11 +17,11 @@ module.exports = {
             "black": "#000000",
             "off-white": "#EDEDF0",
             "off-black": "#242424",
-            "main-text": {
+            "main": {
                 light: "#2A2E32",
                 dark: "#757A80"
             },
-            "sub-text": {
+            "sub": {
                 light: "#4B5258",
                 dark: "#5C6166"
             },
@@ -41,11 +42,10 @@ module.exports = {
                 dark: "#3B48BF"
             }
         },
-        // TODO: CHANGE ME AT PRODUCTION!
         fontFamily: {
-            "work-sans": ["Work Sans", ...defaultTheme.fontFamily.mono],
-            "inter": ["Inter", ...defaultTheme.fontFamily.mono],
-            "mono": ["Roboto Mono", ...defaultTheme.fontFamily.serif],
+            "work-sans": ["Work Sans", ...defaultTheme.fontFamily.sans],
+            "inter": ["Inter", ...defaultTheme.fontFamily.sans],
+            "mono": ["Roboto Mono", ...defaultTheme.fontFamily.mono],
         }
 	},
 	plugins: [],
