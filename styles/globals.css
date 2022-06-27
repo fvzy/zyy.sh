@@ -28,3 +28,20 @@
 html, body {
     height: 100%;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.list-dash {
+    list-style-type: "- ";
+}
+
+li::marker {
+    font-weight: bold;
+}
