@@ -1,5 +1,6 @@
 import { MutableRefObject, useRef } from "react";
 import DefText from "../components/DefText";
+import HeadingTwo from "../components/HeadingTwo";
 import Preface from "../components/Preface";
 import TabDisplay, { SlideBody } from "../components/TabDisplay/TabDisplay";
 
@@ -52,9 +53,7 @@ const Skills = () => {
 	return (
     <div className="space-y-2">
         <Preface className="text-peach-light">KEY SKILLS</Preface>
-        <h2 className="work-bold text-main-light text-4xl">
-            Areas of Specialization
-        </h2>
+        <HeadingTwo>Areas of Specialization</HeadingTwo>
         <DefText>
             I've worked with an assortment of different languages and
             frameworks throughout my developer journey, and I'm constantly
