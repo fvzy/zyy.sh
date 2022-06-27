@@ -5,12 +5,6 @@ class Portfolio extends Document {
         return (
             <Html>
                 <Head>
-                    <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" />
-                    <link 
-                        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Roboto+Mono:wght@500;700&family=Work+Sans:wght@700;800&display=optional"
-                        rel="stylesheet"
-                    />
                 </Head>
                 <body>
                     <Main />
