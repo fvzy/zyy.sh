@@ -46,6 +46,11 @@ module.exports = {
             "work-sans": ["Work Sans", ...defaultTheme.fontFamily.sans],
             "inter": ["Inter", ...defaultTheme.fontFamily.sans],
             "mono": ["Roboto Mono", ...defaultTheme.fontFamily.mono],
+        },
+        extend: {
+            fontSize: {
+                "ms": "0.9375rem"
+            }
         }
 	},
 	plugins: [],
