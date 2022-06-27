@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <nav className="flex justify-between text-[#A5A8AB]">
             <div className="mono-bold text-lg">kevinMEH</div>
-            <ul className="space-x-5 flex text-[1.2rem]">
+            <ul className="space-x-6 flex text-[1.2rem]">
                 <li>
                     <FontAwesomeIcon icon={ faGithub } />
                 </li>

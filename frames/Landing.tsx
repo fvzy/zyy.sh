@@ -8,7 +8,7 @@ const Landing = () => {
             <h1>I'm Kevin.</h1>
         </div>
         <DefText>
-            I&apos;m a tri-brid web developer, software engineer, and UI designer. 
+            I'm a tri-brid web developer, software engineer, and UI designer.
             I build stunning websites and practical applications using the latest technologies.
         </DefText>
     </div>
