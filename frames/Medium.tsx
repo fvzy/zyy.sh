@@ -1,0 +1,34 @@
+import DefText from "../components/DefText";
+import HeadingTwo from "../components/HeadingTwo";
+import Preface from "../components/Preface";
+import Button from "../components/Button";
+import Image from "next/image";
+
+import phoneLight from "../images/phone-light.jpg";
+import { faMedium } from "@fortawesome/free-brands-svg-icons";
+
+const Medium = () => {
+	return (
+		<div className="space-y-2">
+			<Preface className="text-purple-light">MEDIUM</Preface>
+            <HeadingTwo>Check Out My Medium Too!</HeadingTwo>
+			<DefText>
+				Check out my blog on Medium, where I write about various topics
+				from productivity to computer science and technology on a weekly,
+                biweekly basis.
+			</DefText>
+			<DefText>
+				Whether you're a web developer, data scientist, tech enthusiast,
+				or anyone really, there's a read for you. 100% free.
+			</DefText>
+            <div className="relative w-full h-[450px] -z-10 !-mt-3">
+                <Image src={phoneLight} alt="iPhone with Medium article on screen" layout="fill" objectFit="cover" />
+            </div>
+            <div className="flex justify-center">
+                <Button icon={faMedium} text="Medium" src="https://liaogg.medium.com" />
+            </div>
+		</div>
+	);
+};
+
+export default Medium;
