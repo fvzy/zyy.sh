@@ -18,28 +18,30 @@ export interface SkillGroup {
 // TODO: Accessibility: Left Right Arrow Keys, 
 const TabDisplay = ({ slideBodies }: { slideBodies: SlideBody[] }) => {
     const [active, setActive] = useState(0);
-    const slides: JSX.Element[] = useMemo(() => {
-        console.log("Recalc Slide Body");
-        let slides = [];
-        for(let {title, body, skillGroups} of slideBodies) {
-            slides.push(
-                <Slide title={title} body={body} skillGroups={skillGroups} />
-            );
-        }
-        return slides;
-    }, [slideBodies])
-
+    
     const tabs: JSX.Element[] = [];
-    for(let [i, {tabTitle}] of slideBodies.entries()) {
+    const slides: JSX.Element[] = [];
+    let hiddenSlide: JSX.Element;
+    for(let [i, {tabTitle, title, body, skillGroups}] of slideBodies.entries()) {
         tabs.push(<Tab active={ i === active } setActiveFunction={i === active ? () => {} : () => setActive(i)} key={i}>
             {tabTitle}
         </Tab>);
+        slides.push(
+            <Slide title={title} body={body} key={i}
+            skillGroups={skillGroups} active={ i === active } />
+        );
+        if(i === active) {
+            hiddenSlide = <Slide title={title} body={body} skillGroups={skillGroups} active={false} backdrop={true} />
+        }
     }
-    
+
     return(
     <div className="space-y-4 py-2">
         <div className="flex overflow-scroll -mx-6 px-6 no-scrollbar">{ tabs }</div>
-        { slides[active] }
+        <div className="relative">
+            { slides.map(slide => slide)}
+            { hiddenSlide }
+        </div>
     </div>
     )
 }
