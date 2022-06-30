@@ -51,10 +51,10 @@ const Skills = () => {
     )
 
 	return (
-    <div className="space-y-2">
+    <div className="space-y-1">
         <Preface className="text-peach-light">KEY SKILLS</Preface>
         <HeadingTwo>Areas of Specialization</HeadingTwo>
-        <DefText>
+        <DefText className="pb-2">
             I've worked with an assortment of different languages and
             frameworks throughout my developer journey, and I'm constantly
             learning more. Here's a small breakdown of the key areas

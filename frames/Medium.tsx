@@ -9,9 +9,9 @@ import { faMedium } from "@fortawesome/free-brands-svg-icons";
 
 const Medium = () => {
 	return (
-		<div className="space-y-2">
+		<div className="space-y-1">
 			<Preface className="text-purple-light">MEDIUM</Preface>
-            <HeadingTwo>Check Out My Medium Too!</HeadingTwo>
+            <HeadingTwo>Check Out My Writing Too!</HeadingTwo>
 			<DefText>
 				Check out my blog on Medium, where I write about various topics
 				from productivity to computer science and technology on a weekly,

@@ -8,7 +8,7 @@ import NavBar from "../components/NavBar.tsx"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="p-6">
+    <div className="p-5">
         <NavBar />
         <Component {...pageProps} />
     </div>

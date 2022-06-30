@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Roboto+Mono:wght@400;500;700&family=Work+Sans:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Roboto+Mono:wght@400;500;700&family=Work+Sans:wght@800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-    .work-bold {
-        @apply font-work-sans font-bold;
-    }
     .work-extrabold {
         @apply font-work-sans font-extrabold;
     }
@@ -16,6 +13,12 @@
     }
     .inter-semibold {
         @apply font-inter font-semibold;
+    }
+    .inter-bold {
+        @apply font-inter font-bold;
+    }
+    .inter-extrabold {
+        @apply font-inter font-extrabold;
     }
     .mono-regular {
         @apply font-mono font-normal;
