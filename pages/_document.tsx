@@ -29,7 +29,7 @@ class Portfolio extends Document {
         })();
                     `}} />
                 </Head>
-                <body>
+                <body className="bg-white dark:bg-dark duration-300">
                     <Main />
                     <NextScript />
                 </body>

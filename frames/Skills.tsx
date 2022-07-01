@@ -52,7 +52,7 @@ const Skills = () => {
 
 	return (
     <div className="space-y-1">
-        <Preface className="text-peach-light">KEY SKILLS</Preface>
+        <Preface className="text-peach-light dark:text-peach-dark">KEY SKILLS</Preface>
         <HeadingTwo>Areas of Specialization</HeadingTwo>
         <DefText className="pb-2">
             I've worked with an assortment of different languages and

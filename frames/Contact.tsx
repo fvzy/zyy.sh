@@ -8,7 +8,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Contact = () => {
 	return (
 		<div className="space-y-1">
-			<Preface className="text-blue-light text-center">CONTACT</Preface>
+			<Preface className="text-blue-light dark:text-blue-dark text-center">CONTACT</Preface>
 			<HeadingTwo className="text-center">Let's Start Working!</HeadingTwo>
 			<DefText className="text-center">
 				Whether you're a startup searching for another passionate

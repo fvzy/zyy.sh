@@ -10,7 +10,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = () => {
 	return (
 		<div className="space-y-1">
-			<Preface className="text-red-light">FEATURED PROJECTS</Preface>
+			<Preface className="text-red-light dark:text-red-dark">FEATURED PROJECTS</Preface>
 			<HeadingTwo>To Open Source, From Me.</HeadingTwo>
 			<DefText>
 				I've created numerous projects throughout my programming
@@ -43,9 +43,8 @@ const Projects = () => {
                     styled with Tailwind CSS."
 				/>
 			</div>
-			<h3 className="inter-medium text-lg text-sub-light text-center pb-2">
-				Want to see more? <br /> Check out my
-				<span className="inter-semibold">GitHub!</span>
+			<h3 className="inter-medium text-lg text-sub-light dark:text-sub-dark leading-snug text-center pt-1 pb-2">
+				Want to see more? <br /> Check out my <span className="mono-bold text-main-light dark:text-main-dark">GitHub!</span>
 			</h3>
 			<div className="flex justify-center">
 				<Button
