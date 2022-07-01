@@ -20,11 +20,11 @@ module.exports = {
             "off-black": "#242424",
             "main": {
                 light: "#2B2F33",
-                dark: "#757A80"
+                dark: "#858A8F"
             },
             "sub": {
                 light: "#4B5258",
-                dark: "#5C6166"
+                dark: "#676C70"
             },
             "peach": {
                 light: "#FDA262",
