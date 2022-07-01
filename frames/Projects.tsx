@@ -25,6 +25,7 @@ const Projects = () => {
 					text="Version 3 of my personal portfolio website (this website!) 
                     open sourced and made available online. Built with Next.JS and 
                     styled with Tailwind CSS."
+                    href="https://github.com/kevinMEH/portfolio"
 				/>
 				<ProjectCard
 					image={portfolio}
@@ -33,6 +34,7 @@ const Projects = () => {
 					text="Version 3 of my personal portfolio website (this website!) 
                     open sourced and made available online. Built with Next.JS and 
                     styled with Tailwind CSS."
+                    href="https://github.com/kevinMEH/portfolio"
 				/>
 				<ProjectCard
 					image={portfolio}
@@ -41,6 +43,7 @@ const Projects = () => {
 					text="Version 3 of my personal portfolio website (this website!) 
                     open sourced and made available online. Built with Next.JS and 
                     styled with Tailwind CSS."
+                    href="https://github.com/kevinMEH/portfolio"
 				/>
 			</div>
 			<h3 className="inter-medium text-lg text-sub-light dark:text-sub-dark leading-snug text-center pt-1 pb-2">

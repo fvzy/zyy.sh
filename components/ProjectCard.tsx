@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const ProjectCard = 
-({ image, imageAlt, title, text }: 
-{ image: any, imageAlt: string, title: string, text: string }) => {
+({ image, imageAlt, title, text, href }: 
+{ image: any, imageAlt: string, title: string, text: string, href: string }) => {
     return(
-    <div className="flex flex-col">
+    <a className="flex flex-col cursor-pointer" href={href}>
         <div className="relative h-[160px] w-auto">
             <div className="absolute bg-transparent dark:bg-off-black !bg-opacity-25 w-full h-full z-10" />
             <Image src={image} alt={imageAlt} className="rounded-t-md" layout="fill" objectFit="cover" priority={false} />
@@ -13,7 +13,7 @@ const ProjectCard =
             <h3 className="mono-bold text-main-light dark:text-main-dark text-lg">{ title }</h3>
             <p className="mono-regular text-sub-light dark:text-sub-dark text-xs">{ text }</p>
         </div>
-    </div>
+    </a>
     )
 }
 
