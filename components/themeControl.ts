@@ -13,8 +13,5 @@ function evaluateTheme() {
     }
 }
 
-function isDark() {
-    return document.documentElement.classList.contains("dark");
-}
 
-export { evaluateTheme, isDark };
+export default evaluateTheme;

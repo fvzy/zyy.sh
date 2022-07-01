@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { evaluateTheme } from "./themeControl";
+import evaluateTheme from "./themeControl";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
