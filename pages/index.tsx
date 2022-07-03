@@ -3,6 +3,7 @@ import Medium from "../frames/Medium";
 import Projects from "../frames/Projects";
 import Skills from "../frames/Skills";
 import Contact from "../frames/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                 <Projects />
                 <Medium />
                 <Contact />
+                <Footer />
             </div>
         </div>
     )
