@@ -44,7 +44,7 @@ module.exports = {
             }
         },
         fontFamily: {
-            "work-sans": ["Work Sans", ...defaultTheme.fontFamily.sans],
+            "work-sans": ["Work Sans", "Inter", ...defaultTheme.fontFamily.sans],
             "inter": ["Inter", ...defaultTheme.fontFamily.sans],
             "mono": ["Roboto Mono", ...defaultTheme.fontFamily.mono],
         },
