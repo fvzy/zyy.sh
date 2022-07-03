@@ -5,6 +5,7 @@ class Portfolio extends Document {
         return (
             <Html>
                 <Head>
+                    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Roboto+Mono:wght@500;700&family=Work+Sans:wght@800&display=optional" rel="stylesheet" />
                     <script dangerouslySetInnerHTML={{__html: `
         (function() {
             function setTheme(theme) {
