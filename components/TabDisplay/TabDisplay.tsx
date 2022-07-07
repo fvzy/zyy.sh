@@ -31,7 +31,7 @@ const TabDisplay = ({ slideBodies }: { slideBodies: SlideBody[] }) => {
             skillGroups={skillGroups} active={ i === active } />
         );
         if(i === active) {
-            hiddenSlide = <Slide title={title} body={body} skillGroups={skillGroups} active={false} backdrop={true} />
+            hiddenSlide = <Slide title={title} body={body} skillGroups={skillGroups} active={true} backdrop={true} />
         }
     }
 
