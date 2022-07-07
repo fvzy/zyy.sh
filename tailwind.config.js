@@ -44,9 +44,9 @@ module.exports = {
             }
         },
         fontFamily: {
-            "work-sans": ["Work Sans", "Inter", ...defaultTheme.fontFamily.sans],
-            "inter": ["Inter", ...defaultTheme.fontFamily.sans],
-            "mono": ["Roboto Mono", ...defaultTheme.fontFamily.mono],
+            "work-sans": ["Work Sans", "InterVariable", ...defaultTheme.fontFamily.sans],
+            "inter": ["InterVariable", ...defaultTheme.fontFamily.sans],
+            "mono": ["Roboto MonoVariable", ...defaultTheme.fontFamily.mono],
         },
         extend: {
             fontSize: {
