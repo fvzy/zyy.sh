@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class Portfolio extends Document {
     render() {
         return (
-            <Html>
+            <Html lang="en">
                 <Head>
                     <script dangerouslySetInnerHTML={{__html: `
         (function() {
