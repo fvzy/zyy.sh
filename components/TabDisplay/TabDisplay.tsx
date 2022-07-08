@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useMemo } from "react";
 import Slide from "./Slide";
 import Tab from "./Tab";
 
@@ -37,7 +36,7 @@ const TabDisplay = ({ slideBodies }: { slideBodies: SlideBody[] }) => {
 
     return(
     <div className="space-y-4 py-2">
-        <div className="flex overflow-scroll -mx-6 px-6 no-scrollbar">{ tabs }</div>
+        <div className="flex overflow-scroll -mx-5 px-5 no-scrollbar">{ tabs }</div>
         <div className="relative">
             { slides.map(slide => slide)}
             { hiddenSlide }
