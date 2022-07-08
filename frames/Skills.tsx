@@ -1,5 +1,6 @@
 import { MutableRefObject, useRef } from "react";
 import DefText from "../components/DefText";
+import FrameWrapper from "../components/FrameWrapper";
 import HeadingTwo from "../components/HeadingTwo";
 import Preface from "../components/Preface";
 import TabDisplay, { SlideBody } from "../components/TabDisplay/TabDisplay";
@@ -50,8 +51,7 @@ const Skills = () => {
         }]
     )
 
-	return (
-    <div className="space-y-1">
+	return <FrameWrapper>
         <Preface className="text-peach-light dark:text-peach-dark">KEY SKILLS</Preface>
         <HeadingTwo>Areas of Specialization</HeadingTwo>
         <DefText className="pb-2">
@@ -61,8 +61,7 @@ const Skills = () => {
             that I specialize in, the skills I have, and the tools I use.
         </DefText>
         <TabDisplay slideBodies={slideBodiesRef.current} />
-    </div>
-	);
+    </FrameWrapper>
 };
 
 export default Skills;

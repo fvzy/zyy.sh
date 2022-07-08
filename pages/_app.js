@@ -12,7 +12,7 @@ import NavBar from "../components/NavBar.tsx"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="p-5">
+    <div className="py-5">
         <NavBar />
         <Component {...pageProps} />
     </div>

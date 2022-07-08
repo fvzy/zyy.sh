@@ -36,7 +36,7 @@ const NavBar = () => {
         }
     }
     return (
-        <nav className="duration-300 flex justify-between text-sub-light dark:text-sub-dark text-opacity-50">
+        <nav className="duration-300 flex justify-between text-sub-light dark:text-sub-dark text-opacity-50 px-5">
             <span className="mono-bold text-lg cursor-pointer">kevinMEH</span>
             <span className="text-[1.2rem] cursor-pointer">
                 { render !== 0 && themeIcon }
