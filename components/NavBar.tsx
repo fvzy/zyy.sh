@@ -3,6 +3,7 @@ import evaluateTheme from "./themeControl";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
+import FrameWrapper from "./FrameWrapper";
 
 
 const NavBar = () => {
@@ -36,12 +37,14 @@ const NavBar = () => {
         }
     }
     return (
-        <nav className="duration-300 flex justify-between text-sub-light dark:text-sub-dark text-opacity-50 px-5">
-            <span className="mono-bold text-lg cursor-pointer">kevinMEH</span>
-            <span className="text-[1.2rem] cursor-pointer">
-                { render !== 0 && themeIcon }
-            </span>
-        </nav>
+        <FrameWrapper>
+            <nav className="duration-300 flex justify-between text-sub-light dark:text-sub-dark text-opacity-50">
+                <span className="mono-bold text-lg cursor-pointer">kevinMEH</span>
+                <span className="text-[1.2rem] cursor-pointer">
+                    { render !== 0 && themeIcon }
+                </span>
+            </nav>
+        </FrameWrapper>
     )
 }
 
