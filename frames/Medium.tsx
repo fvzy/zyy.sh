@@ -10,9 +10,9 @@ import { faMedium } from "@fortawesome/free-brands-svg-icons";
 import FrameWrapper from "../components/FrameWrapper";
 
 const Medium = () => {
-	return <FrameWrapper>
-        <Preface className="text-purple-light dark:text-purple-dark">MEDIUM</Preface>
-        <HeadingTwo>Check Out My Writing Too!</HeadingTwo>
+	return <FrameWrapper className="max-w-[800px] md:flex md:space-y-0 md:space-x-12">
+            <Preface className="text-purple-light dark:text-purple-dark">MEDIUM</Preface>
+            <HeadingTwo>Check Out My Writing Too!</HeadingTwo>
         <DefText>
             Check out my blog on Medium, where I write about various topics
             from productivity to computer science and technology on a weekly,

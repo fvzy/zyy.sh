@@ -51,7 +51,7 @@ const Skills = () => {
         }]
     )
 
-	return <FrameWrapper>
+	return <FrameWrapper className="max-w-[720px]">
         <Preface className="text-peach-light dark:text-peach-dark">KEY SKILLS</Preface>
         <HeadingTwo>Areas of Specialization</HeadingTwo>
         <DefText className="pb-2">

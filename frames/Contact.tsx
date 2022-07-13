@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import FrameWrapper from "../components/FrameWrapper";
 
 const Contact = () => {
-	return <FrameWrapper>
+	return <FrameWrapper className="max-w-[540px]">
         <Preface className="text-blue-light dark:text-blue-dark text-center">CONTACT</Preface>
         <HeadingTwo className="text-center">Let's Start Working!</HeadingTwo>
         <DefText className="text-center">

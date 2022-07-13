@@ -9,7 +9,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import FrameWrapper from "../components/FrameWrapper";
 
 const Projects = () => {
-	return <FrameWrapper>
+	return <FrameWrapper className="max-w-[800px]">
         <Preface className="text-red-light dark:text-red-dark">FEATURED PROJECTS</Preface>
         <HeadingTwo>To Open Source, From Me.</HeadingTwo>
         <DefText>
