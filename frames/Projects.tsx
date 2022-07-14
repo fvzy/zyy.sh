@@ -46,15 +46,17 @@ const Projects = () => {
                 href="https://github.com/kevinMEH/portfolio"
             />
         </div>
-        <h3 className="inter-medium text-lg text-sub-light dark:text-sub-dark leading-snug text-center pt-1 pb-2">
-            Want to see more? <br /> Check out my <span className="mono-bold text-main-light dark:text-main-dark">GitHub!</span>
-        </h3>
-        <div className="flex justify-center">
-            <Button
-                icon={faGithub}
-                text="GitHub"
-                src="https://github.com/kevinMEH"
-            />
+        <div className="pt-3 space-y-1 sm:flex sm:space-y-0 sm:space-x-12 items-center justify-center">
+            <h3 className="inter-medium text-lg text-sub-light dark:text-sub-dark leading-snug text-center pt-1 pb-2">
+                Want to see more? <br /> Check out my <span className="mono-bold text-main-light dark:text-main-dark">GitHub!</span>
+            </h3>
+            <div className="flex justify-center h-auto">
+                <Button
+                    icon={faGithub}
+                    text="GitHub"
+                    src="https://github.com/kevinMEH"
+                    />
+            </div>
         </div>
     </FrameWrapper>
 };
