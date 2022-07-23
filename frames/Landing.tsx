@@ -2,6 +2,7 @@ import FrameWrapper from "../components/FrameWrapper";
 
 const Landing = () => {
     return <FrameWrapper>
+        <div className="flex justify-center">
             <div className="flex flex-col justify-center items-start h-[95vh] pb-[10vh] space-y-2">
                 <div className="work-extrabold text-main-light dark:text-main-dark text-6xl">
                     <h1>Hello!</h1>
@@ -12,6 +13,7 @@ const Landing = () => {
                     I build stunning websites and practical applications using the latest technologies.
                 </p>
             </div>
+        </div>
     </FrameWrapper>
 }
 
