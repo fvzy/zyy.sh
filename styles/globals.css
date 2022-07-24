@@ -15,6 +15,9 @@
     .inter-bold {
         @apply font-inter font-bold;
     }
+    .inter-extrabold {
+        @apply font-inter font-extrabold;
+    }
     .mono-regular {
         @apply font-mono font-normal;
     }
