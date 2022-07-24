@@ -10,7 +10,7 @@ const Tab =
     }
 
     return(
-    <div className={"inline-block flex-shrink-0 h-10 w-28 border-b-4 cursor-pointer transition-all " + (active ? 
+    <div className={"inline-block flex-shrink-0 h-10 w-28 md:w-32 border-b-4 cursor-pointer transition-all " + (active ? 
         `mono-bold text-peach-light dark:text-peach-dark bg-peach-light dark:bg-peach-dark !bg-opacity-[0.15] border-b-peach-light dark:border-b-peach-dark` :
         `mono-bold text-sub-light dark:text-sub-dark hover:text-peach-light dark:hover:text-peach-dark
         hover:bg-peach-light dark:hover:bg-peach-dark hover:!bg-opacity-5 
