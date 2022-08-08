@@ -10,7 +10,7 @@ import { faMedium } from "@fortawesome/free-brands-svg-icons";
 import FrameWrapper from "../components/FrameWrapper";
 
 const Medium = () => {
-	return <FrameWrapper className="max-w-[800px] sm:flex sm:space-y-0 sm:space-x-6 md:space-x-12">
+	return <FrameWrapper className="max-w-[800px] sm:flex sm:space-y-0 sm:space-x-6 md:space-x-12 sm:pt-3">
         <div className="space-y-1">
             <Preface className="text-purple-light dark:text-purple-dark">MEDIUM</Preface>
             <HeadingTwo>Check Out My Writing Too!</HeadingTwo>
@@ -29,7 +29,7 @@ const Medium = () => {
                 </div>
             </div>
         </div>
-        <div className="basis-2/5 flex-shrink-0 sm:-translate-y-[1.5rem] md:-translate-y-[3rem]">
+        <div className="basis-2/5 flex-shrink-0 sm:-translate-y-[1.5rem] md:-translate-y-[2.5rem]">
             <div className="p-4 flex justify-center">
                 <div className="dark:hidden">
                     <Image src={phoneLight} alt="iPhone with Medium article on screen" objectFit="contain" />
