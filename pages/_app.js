@@ -3,8 +3,10 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 import "@fontsource/inter/variable.css";
-import "@fontsource/roboto-mono/variable.css";
-import "@fontsource/work-sans/800.css";
+import "@fontsource/ibm-plex-mono/400.css";
+import "@fontsource/ibm-plex-mono/500.css";
+import "@fontsource/ibm-plex-mono/600.css";
+import "@fontsource/ibm-plex-mono/700.css";
 
 import '../styles/globals.css'
 
