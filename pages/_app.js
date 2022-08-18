@@ -10,6 +10,7 @@ import '../styles/globals.css'
 
 import NavBar from "../components/NavBar.tsx"
 
+// TODO: Rewrite
 function MyApp({ Component, pageProps }) {
   return (
     <div className="py-5">

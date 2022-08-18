@@ -9,6 +9,7 @@ interface SlideProps {
     backdrop?: boolean
 }
 
+// TODO: Rewrite
 const Slide = ({ title, body, skillGroups, active, backdrop = false }: SlideProps) => {
     return(<div className={"space-y-2 transition-opacity ease-in-out w-full " + (active ? "z-10 opacity-100 " : "opacity-0 ") + (backdrop ? "invisible" : "absolute")}>
         <h3 className="text-2xl md:text-3xl mono-bold text-main-light dark:text-main-dark tracking-tight">{title}</h3>

@@ -1,3 +1,4 @@
+// TODO: Rewrite
 const Footer = () => {
     return(
     <footer className="space-y-1 mono-medium text-center text-sm opacity-50 text-sub-light dark:text-sub-dark md:pt-16">

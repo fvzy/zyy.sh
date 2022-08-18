@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+// TODO: Rewrite
 const ProjectCard = 
 ({ image, imageAlt, title, text, href }: 
 { image: any, imageAlt: string, title: string, text: string, href: string }) => {

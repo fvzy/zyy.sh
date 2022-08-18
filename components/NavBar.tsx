@@ -3,9 +3,9 @@ import evaluateTheme from "./themeControl";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
-import FrameWrapper from "./FrameWrapper";
 
 
+// TODO: Rewrite into theme control button only
 const NavBar = () => {
     // State to force rerenders
     const [render, setRender] = useState(0);
@@ -37,14 +37,12 @@ const NavBar = () => {
         }
     }
     return (
-        <FrameWrapper className="max-w-[900px]">
             <nav className="duration-300 flex justify-between text-sub-light dark:text-sub-dark text-opacity-50">
                 <span className="mono-bold text-lg cursor-pointer">kevinMEH</span>
                 <span className="text-[1.2rem] cursor-pointer">
                     { render !== 0 && themeIcon }
                 </span>
             </nav>
-        </FrameWrapper>
     )
 }
 

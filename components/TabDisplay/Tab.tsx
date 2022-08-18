@@ -1,5 +1,6 @@
 import React from "react";
 
+// TODO: Redo styling.
 const Tab = 
 ({ children, active = false, setActiveFunction }: 
 { children: string, active?: boolean, setActiveFunction: () => void }) => {
