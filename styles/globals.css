@@ -3,21 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-    .work-extrabold {
-        @apply font-work-sans font-extrabold;
-    }
-    .inter-medium {
-        @apply font-inter font-medium;
-    }
-    .inter-semibold {
-        @apply font-inter font-semibold;
-    }
-    .inter-bold {
-        @apply font-inter font-bold;
-    }
-    .inter-extrabold {
-        @apply font-inter font-extrabold;
-    }
     .mono-regular {
         @apply font-mono font-normal;
     }
@@ -40,12 +25,4 @@ html, body {
 .no-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-}
-
-.list-dash {
-    list-style-type: "- ";
-}
-
-li::marker {
-    font-weight: bold;
 }
