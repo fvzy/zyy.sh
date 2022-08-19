@@ -5,19 +5,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 interface SlideProps {
     skillGroups: SkillGroup[],
     active: boolean,
-    backdrop?: boolean
 }
 
 // TODO: Rewrite
-const Slide = ({ skillGroups, active, backdrop = false }: SlideProps) => {
+const Slide = ({ skillGroups, active }: SlideProps) => {
     return(
-    <div className={"flex overflow-scroll no-scrollbar -mx-5 px-5 space-y-2 transition-opacity ease-in-out w-full " + (active ? "z-10 opacity-100 " : "opacity-0 ") + (backdrop ? "invisible" : "absolute")}>
+    // NOTE: Padding and negative margin should match wrapper div side margins
+    <div className={"absolute overflow-scroll flex -mx-7 px-7 space-x-6 no-scrollbar transition-opacity left-0 right-0 " + (active ? "z-10 opacity-100 " : "opacity-0 ")}>
         {skillGroups.map(({title, skills}, i) => (
-            <div className="min-w-[280px] w-full max-w-[340px] inline-block" key={i}>
-                <h4 className="font-mono font-medium text-sub-light dark:text-sub-dark pb-1">{ title }</h4>
-                <ul className="font-mono font-medium text-sub-light dark:text-sub-dark pl-6">
+            <div className="min-w-[220px] flex-shrink-0 max-w-[340px] inline-block" key={i}>
+                <h2 className="font-mono font-medium text-sub-light dark:text-sub-dark pb-2">{ title }</h2>
+                <ul className="font-mono font-medium text-sub-light dark:text-sub-dark pl-2.5 space-y-1">
                     {skills.map(([icon, text], j) => 
-                        <li key={j}>
+                        <li key={j} className="space-x-3">
                             <FontAwesomeIcon icon={icon} fixedWidth={true} />
                             <p className="inline">{text}</p>
                         </li>)
@@ -25,7 +25,8 @@ const Slide = ({ skillGroups, active, backdrop = false }: SlideProps) => {
                 </ul>
             </div>
         ))}
-    </div>)
+    </div>
+    )
 }
 
 export default Slide;

@@ -22,27 +22,21 @@ const TabDisplay = ({ sections }: { sections: Section[] }) => {
     
     const tabs: JSX.Element[] = [];
     const slides: JSX.Element[] = [];
-    let hiddenSlide: JSX.Element;
     for(let [i, {tabTitle, skillGroups}] of sections.entries()) {
         tabs.push(<Tab active={ i === active } setActiveFunction={i === active ? () => {} : () => setActive(i)} key={i}>
             {tabTitle}
         </Tab>);
-        slides.push(
-            <Slide key={i} skillGroups={skillGroups} active={ i === active } />
-        );
-        if(i === active) {
-            hiddenSlide = <Slide skillGroups={skillGroups} active={true} backdrop={true} />
-        }
+        slides.push(<Slide key={i} skillGroups={skillGroups} active={active === i} />)
     }
 
     return(
-    <div className="space-y-4 py-2">
-        <div className="flex overflow-scroll -mx-5 px-5 no-scrollbar md:mx-0 md:px-0">
+    // NOTE: Padding and negative margin should match wrapper div side margins
+    <div className="space-y-4 py-4">
+        <div className="overflow-scroll flex -mx-7 px-7 space-x-2 no-scrollbar">
             { tabs }
         </div>
-        <div className="relative">
+        <div className="relative no-scrollbar h-[168px]">
             { slides }
-            { hiddenSlide }
         </div>
     </div>
     )
