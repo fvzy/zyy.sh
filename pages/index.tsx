@@ -1,5 +1,8 @@
-import Footer from "../components/Footer";
 import Head from "next/head";
+
+import Wrapper from "../components/Wrapper";
+import Profile from "../frames/Profile";
+import Banner from "../frames/Banner";
 
 // TODO: Rewrite
 const Home = () => {
@@ -9,8 +12,12 @@ const Home = () => {
             <title>kevinMEH | Portfolio</title>
             <meta name="description" content="The official portfolio of web developer and software engineer kevinMEH (Kevin Liao)" />
         </Head>
-        <div>
-        </div>
+        <Wrapper>
+            <Banner />
+            <div className="px-7">
+                <Profile />
+            </div>
+        </Wrapper>
         </>
     )
 }
