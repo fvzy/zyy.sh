@@ -31,7 +31,7 @@ const TabDisplay = ({ sections }: { sections: Section[] }) => {
 
     return(
     // NOTE: Padding and negative margin should match wrapper div side margins
-    <div className="space-y-4 py-4">
+    <div className="space-y-3 py-3">
         <div className="overflow-scroll flex -mx-7 px-7 space-x-2 no-scrollbar">
             { tabs }
         </div>
