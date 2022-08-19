@@ -3,10 +3,14 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 import "@fontsource/inter/variable.css";
-import "@fontsource/ibm-plex-mono/400.css";
-import "@fontsource/ibm-plex-mono/500.css";
-import "@fontsource/ibm-plex-mono/600.css";
-import "@fontsource/ibm-plex-mono/700.css";
+import "@fontsource/inconsolata/200.css";
+import "@fontsource/inconsolata/300.css";
+import "@fontsource/inconsolata/400.css";
+import "@fontsource/inconsolata/500.css";
+import "@fontsource/inconsolata/600.css";
+import "@fontsource/inconsolata/700.css";
+import "@fontsource/inconsolata/800.css";
+import "@fontsource/inconsolata/900.css";
 
 import "../styles/globals.css";
 
