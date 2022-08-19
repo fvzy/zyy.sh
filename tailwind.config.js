@@ -27,13 +27,13 @@ module.exports = {
                 dark: "#676C70"
             },
             "quiet": {
-                light: "5F6266",
-                dark: "565A5D"
+                light: "#5F6266",
+                dark: "#565A5D"
             }
         },
         fontFamily: {
             "inter": ["InterVariable", ...defaultTheme.fontFamily.sans],
-            "mono": ["IBM Plex Mono", ...defaultTheme.fontFamily.mono],
+            "mono": ["Inconsolata", ...defaultTheme.fontFamily.mono],
         },
 	},
 	plugins: [],
