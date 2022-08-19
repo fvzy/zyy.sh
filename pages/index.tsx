@@ -5,6 +5,7 @@ import Profile from "../frames/Profile";
 import Banner from "../frames/Banner";
 import Skills from "../frames/Skills";
 import Projects from "../frames/Projects";
+import Contact from "../frames/Contact";
 
 // TODO: Rewrite
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                 <Profile />
                 <Skills />
                 <Projects />
+                <Contact />
             </div>
         </Wrapper>
         </>
