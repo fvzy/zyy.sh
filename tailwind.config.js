@@ -33,7 +33,7 @@ module.exports = {
         },
         fontFamily: {
             "inter": ["InterVariable", ...defaultTheme.fontFamily.sans],
-            "mono": ["Inconsolata", ...defaultTheme.fontFamily.mono],
+            "mono": ["Fira CodeVariable", ...defaultTheme.fontFamily.mono],
         },
 	},
 	plugins: [],
