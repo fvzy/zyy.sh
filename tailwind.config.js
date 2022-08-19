@@ -26,33 +26,15 @@ module.exports = {
                 light: "#4B5258",
                 dark: "#676C70"
             },
-            "peach": {
-                light: "#FDA262",
-                dark: "#C47E4C"
-            },
-            "red": {
-                light: "#EB5756",
-                dark: "#BD4645"
-            },
-            "purple": {
-                light: "#B073FF",
-                dark: "#8859C4"
-            },
-            "blue": {
-                light: "#4E5EFA",
-                dark: "#3B48BF"
+            "quiet": {
+                light: "5F6266",
+                dark: "565A5D"
             }
         },
         fontFamily: {
-            "work-sans": ["Work Sans", "InterVariable", ...defaultTheme.fontFamily.sans],
             "inter": ["InterVariable", ...defaultTheme.fontFamily.sans],
-            "mono": ["Roboto MonoVariable", ...defaultTheme.fontFamily.mono],
+            "mono": ["IBM Plex Mono", ...defaultTheme.fontFamily.mono],
         },
-        extend: {
-            fontSize: {
-                "ms": "0.9375rem"
-            }
-        }
 	},
 	plugins: [],
 };
