@@ -3,6 +3,7 @@ import Head from "next/head";
 import Wrapper from "../components/Wrapper";
 import Profile from "../frames/Profile";
 import Banner from "../frames/Banner";
+import Skills from "../frames/Skills";
 
 // TODO: Rewrite
 const Home = () => {
@@ -14,8 +15,9 @@ const Home = () => {
         </Head>
         <Wrapper>
             <Banner />
-            <div className="px-7">
+            <div className="px-7 space-y-8">
                 <Profile />
+                <Skills />
             </div>
         </Wrapper>
         </>
