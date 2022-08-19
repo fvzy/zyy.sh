@@ -28,7 +28,7 @@ const Profile = () => {
                 </a>
             </div>
         </div>
-        <h1 className="font-inter font-extrabold text-main-light text-xl mb-1">Hello! I'm Kevin Liao.</h1>
+        <h1 className="font-inter font-bold text-main-light text-xl mb-1">Hello! I'm Kevin Liao.</h1>
         <p className="font-inter font-medium text-sub-light text-sm leading-snug">I'm a full stack developer, designer, and software engineer from New York.</p>
     </div>
     )
