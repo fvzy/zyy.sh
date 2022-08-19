@@ -1,9 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
+
 // TODO: Rewrite
 const Footer = () => {
     return(
-    <footer className="space-y-1 mono-medium text-center text-sm opacity-50 text-sub-light dark:text-sub-dark md:pt-16">
-        <p>Made with magic 💖 by kevinMEH</p>
-        <p><span className="inter-medium tracking-widest">© </span>2022 kevinMEH</p>
+    <footer className="space-y-1 flex flex-col items-center text-xs mb-4 font-medium">
+        <p className="font-inter text-sub-light dark:text-sub-dark">Made with magic by kevinMEH.</p>
+        <a className="flex space-x-1 font-mono text-quiet-light dark:text-quiet-dark items-center" href="https://github.com/kevinMEH/portfolio">
+            <FontAwesomeIcon icon={faStar} className="pb-[0.5px]" />
+            <p>kevinMEH/portfolio</p>
+        </a>
     </footer>
     )
 }

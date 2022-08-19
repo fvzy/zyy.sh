@@ -6,6 +6,7 @@ import Banner from "../frames/Banner";
 import Skills from "../frames/Skills";
 import Projects from "../frames/Projects";
 import Contact from "../frames/Contact";
+import Footer from "../components/Footer";
 
 // TODO: Rewrite
 const Home = () => {
@@ -17,12 +18,13 @@ const Home = () => {
         </Head>
         <Wrapper>
             <Banner />
-            <div className="px-7 space-y-8">
+            <div className="px-7 space-y-8 pb-20">
                 <Profile />
                 <Skills />
                 <Projects />
                 <Contact />
             </div>
+            <Footer />
         </Wrapper>
         </>
     )
