@@ -5,7 +5,7 @@ import { faBook as library, faBox as framework, faCube as language, faFloppyDisk
 const Skills = () => {
     return (
     <div>
-        <h1 className="font-mono font-bold text-sub-light text-lg">Key Skills</h1>
+        <h1 className="font-mono font-bold text-sub-light dark:text-sub-dark text-lg">Key Skills</h1>
         <TabDisplay sections={[{
             tabTitle: "Software",
             skillGroups: [{
