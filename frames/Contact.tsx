@@ -7,7 +7,7 @@ const Contact = () => {
             <h1 className="font-mono font-bold text-sub-light dark:text-sub-dark text-lg mb-1">
                 Contact Me
             </h1>
-            <p className="font-inter text-sub-light dark:text-sub-dark text-sm leading-snug text-center max-w-[358px]">
+            <p className="font-inter font-[475] text-sub-light dark:text-sub-dark text-sm md:text-[15px] leading-snug text-center max-w-[358px]">
                 I'm always looking for opportunities to work on new and exciting
                 projects. Click the button below to send me an email, and let's
                 start working!
