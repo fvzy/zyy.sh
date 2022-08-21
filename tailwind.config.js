@@ -35,6 +35,9 @@ module.exports = {
             "inter": ["InterVariable", ...defaultTheme.fontFamily.sans],
             "mono": ["Fira CodeVariable", ...defaultTheme.fontFamily.mono],
         },
+        screens: {
+            "md": "600px"
+        }
 	},
 	plugins: [],
 };
