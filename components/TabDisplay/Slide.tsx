@@ -15,11 +15,11 @@ const Slide = ({ skillGroups, active }: SlideProps) => {
         {skillGroups.map(({title, skills}, i) => (
         <div className="min-w-[200px] flex-shrink-0 inline-block" key={i}>
             <h2 className="font-mono font-semibold text-sub-light dark:text-sub-dark pb-2 md:pb-3">{ title }</h2>
-            <ul className="font-mono font-medium text-sub-light dark:text-sub-dark pl-2.5 md:pl-3.5 space-y-1 md:space-y-2">
+            <ul className="font-mono text-sub-light dark:text-sub-dark pl-2.5 md:pl-3.5 space-y-1 md:space-y-2">
                 {skills.map(([icon, text], j) => 
                 <li key={j} className="flex items-center space-x-3 md:space-x-4 text-sm">
                     <FontAwesomeIcon icon={icon} fixedWidth={true} className="text-base pb-[2px]" />
-                    <p className="inline">{text}</p>
+                    <p className="inline font-[475]">{text}</p>
                 </li>)
                 }
             </ul>
