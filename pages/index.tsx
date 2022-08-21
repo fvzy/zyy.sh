@@ -18,7 +18,7 @@ const Home = () => {
         </Head>
         <Wrapper>
             <Banner />
-            <div className="px-7 md:px-9 space-y-8 md:space-y-11 pb-20 md:pb-28">
+            <div className="px-7 md:px-9 space-y-8 md:space-y-11 pb-36 md:pb-44">
                 <Profile />
                 <Skills />
                 <Projects />

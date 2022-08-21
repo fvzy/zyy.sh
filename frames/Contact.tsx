@@ -3,7 +3,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Contact = () => {
     return (
-        <div className="flex items-center flex-col pt-7">
+        <div className="flex items-center flex-col pt-[4.75rem] md:pt-[5rem] lg:pt-[6rem]">
             <h1 className="font-mono font-bold text-sub-light dark:text-sub-dark text-lg md:text-2xl mb-1 md:mb-2">
                 Contact Me
             </h1>
