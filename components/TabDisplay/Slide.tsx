@@ -17,8 +17,8 @@ const Slide = ({ skillGroups, active }: SlideProps) => {
             <h2 className="font-mono font-semibold text-sub-light dark:text-sub-dark pb-2">{ title }</h2>
             <ul className="font-mono font-medium text-sub-light dark:text-sub-dark pl-2.5 space-y-1">
                 {skills.map(([icon, text], j) => 
-                    <li key={j} className="space-x-3 text-sm">
-                        <FontAwesomeIcon icon={icon} fixedWidth={true} />
+                    <li key={j} className="flex items-center space-x-3 text-sm">
+                        <FontAwesomeIcon icon={icon} fixedWidth={true} className="text-base pb-[2px]" />
                         <p className="inline">{text}</p>
                     </li>)
                 }
