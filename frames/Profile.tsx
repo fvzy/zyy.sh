@@ -16,15 +16,18 @@ const Profile = () => {
                     <Image src={profile} />
                 </div>
             </div>
-            <div className="flex w-[140px] justify-between text-sub-light dark:text-sub-dark text-2xl self-end pr-1 pb-1 pt-4"> 
-                <a className="flex">
-                    <FontAwesomeIcon icon={faGithub} />
+            <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl md:text-lg self-end pr-1 pb-1 pt-4"> 
+                <a className="flex items-center space-x-3" href="https://github.com/kevinMEH">
+                    <FontAwesomeIcon icon={faGithub} className="md:pb-[2px]" />
+                    <p className="hidden font-mono font-medium text-sm md:block">GitHub</p>
                 </a>
-                <a className="flex">
-                    <FontAwesomeIcon icon={faMedium} />
+                <a className="flex items-center space-x-3" href="https://liaogg.medium.com">
+                    <FontAwesomeIcon icon={faMedium} className="md:pb-[2px]" />
+                    <p className="hidden font-mono font-medium text-sm md:block">Medium</p>
                 </a>
-                <a className="flex">
-                    <FontAwesomeIcon icon={faEnvelope} />
+                <a className="flex items-center space-x-3" href="mailto:hello@liao.gg">
+                    <FontAwesomeIcon icon={faEnvelope} className="md:pb-[2px]" />
+                    <p className="hidden font-mono font-medium text-sm md:block">Contact</p>
                 </a>
             </div>
         </div>
