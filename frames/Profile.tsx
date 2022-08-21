@@ -28,10 +28,10 @@ const Profile = () => {
                 </a>
             </div>
         </div>
-        <h1 className="font-inter font-bold text-main-light dark:text-main-dark text-xl mb-1">
+        <h1 className="font-inter font-bold text-main-light dark:text-main-dark text-xl md:text-[22px] mb-1">
             Hello! I'm Kevin Liao.
         </h1>
-        <p className="font-inter font-medium text-sub-light dark:text-main-dark text-sm leading-snug">
+        <p className="font-inter font-[475] text-sub-light dark:text-main-dark text-sm md:text-[15px] leading-snug md:leading-[1.4]">
             I'm a full stack developer, designer, and software engineer from New York.
         </p>
     </div>
