@@ -7,7 +7,6 @@ import "@fontsource/fira-code/variable.css";
 
 import "../styles/globals.css";
 
-// TODO: Rewrite
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
 }

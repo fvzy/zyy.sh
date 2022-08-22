@@ -8,7 +8,6 @@ import Projects from "../frames/Projects";
 import Contact from "../frames/Contact";
 import Footer from "../components/Footer";
 
-// TODO: Rewrite
 const Home = () => {
     return (
         <>

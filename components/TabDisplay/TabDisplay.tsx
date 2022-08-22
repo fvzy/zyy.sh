@@ -15,7 +15,6 @@ export interface SkillGroup {
 }
 
 // TODO: Accessibility: Left Right Arrow Keys, 
-// TODO: Rewrite styling.
 // TODO: Add animations.
 const TabDisplay = ({ sections }: { sections: Section[] }) => {
     const [active, setActive] = useState(0);

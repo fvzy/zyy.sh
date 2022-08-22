@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 
-// TODO: Rewrite
 const Footer = () => {
     return(
     <footer className="space-y-1 flex flex-col items-center text-xs mb-8 md:mb-12 lg:mb-14 font-medium">

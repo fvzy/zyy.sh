@@ -4,8 +4,6 @@ import evaluateTheme from "./themeControl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
 
-
-// TODO: Rewrite into theme control button only
 const ThemeControlButton = ({ className }) => {
     // State to force rerenders
     const [render, setRender] = useState(0);
