@@ -11,7 +11,7 @@ const Banner = () => {
         </div>
         <div className="pb-[min(35%,200px)] w-full dark:bg-off-black opacity-40" />
         <ThemeControlButton className="
-        text-xl cursor-pointer duration-300 text-main-light dark:text-main-dark
+        text-xl cursor-pointer duration-300 text-main-light dark:text-main-dark text-opacity-50 dark:text-opacity-100
         absolute right-5 top-4 w-8 h-8 bg-off-white dark:bg-off-black bg-opacity-[0.15] dark:bg-opacity-75 rounded-full
         flex items-center justify-around" />
     </div>
