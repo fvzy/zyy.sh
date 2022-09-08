@@ -7,7 +7,6 @@ interface SlideProps {
     active: boolean,
 }
 
-// TODO: Rewrite
 const Slide = ({ skillGroups, active }: SlideProps) => {
     return(
     // NOTE: Padding and negative margin should match wrapper div side margins
