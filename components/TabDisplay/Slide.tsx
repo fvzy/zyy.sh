@@ -14,7 +14,6 @@ const Slide = ({ skillGroups, active }: SlideProps) => {
         // performance to ensure that this only runs once.
         if(active) {
             setTimeout(() => {
-                console.log("executed");
                 let elements = document.getElementsByClassName("fade");
                 for(let element of elements) {
                     element.classList.add("invisible");
