@@ -36,6 +36,7 @@ module.exports = {
             "mono": ["Fira CodeVariable", ...defaultTheme.fontFamily.mono],
         },
         screens: {
+            "sm": "400px",
             "md": "600px",
             "lg": "700px"
         }
