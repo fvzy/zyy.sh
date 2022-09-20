@@ -74,7 +74,7 @@ const TabDisplay = ({ sections }: { sections: Section[] }) => {
         <div className="hidden sm:flex overflow-scroll -mx-7 px-7 space-x-2 no-scrollbar">
             { tabs }
         </div>
-        <div className="relative no-scrollbar h-[168px]">
+        <div className="relative no-scrollbar h-[200px]">
             { slides }
         </div>
     </div>
