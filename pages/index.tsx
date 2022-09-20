@@ -13,7 +13,9 @@ const Home = () => {
         <>
         <Head>
             <title>kevinMEH | Portfolio</title>
-            <meta name="description" content="The official portfolio of web developer and software engineer kevinMEH (Kevin Liao)" />
+            <meta name="description" content="Portfolio of Software Engineer Kevin Liao" />
+            <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
+            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191919" />
         </Head>
         <Wrapper>
             <Banner />

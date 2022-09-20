@@ -63,11 +63,11 @@ const TabDisplay = ({ sections }: { sections: Section[] }) => {
     // NOTE: Padding and negative margin should match wrapper div side margins
     <div tabIndex={-1} className="space-y-3 py-3 outline-none" onFocus={focusHandler} onBlur={blurHandler}>
         <div className="flex space-x-4 justify-center sm:hidden">
-            <button className="rounded-full h-10 w-10 text-quiet-light dark:text-quiet-dark" onClick={() => handleArrowKeys({ key: "ArrowLeft" })}>
+            <button aria-label="Left Slide" className="rounded-full h-10 w-10 text-quiet-light dark:text-quiet-dark" onClick={() => handleArrowKeys({ key: "ArrowLeft" })}>
                 <FontAwesomeIcon icon={faChevronLeft} />
             </button>
             <TranslatingTabGroup tabsButActive={tabsButActive} direction={direction} />
-            <button className="rounded-full h-10 w-10 text-quiet-light dark:text-quiet-dark" onClick={() => handleArrowKeys({ key: "ArrowRight" })}>
+            <button aria-label="Right Slide" className="rounded-full h-10 w-10 text-quiet-light dark:text-quiet-dark" onClick={() => handleArrowKeys({ key: "ArrowRight" })}>
                 <FontAwesomeIcon icon={faChevronRight} />
             </button>
         </div>

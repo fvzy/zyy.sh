@@ -35,9 +35,9 @@ const ThemeControlButton = ({ className }) => {
         }
     }
     return (
-        <span className={className}>
+        <button aria-label="Change Theme" className={className}>
             { render !== 0 && themeIcon }
-        </span>
+        </button>
     )
 }
 

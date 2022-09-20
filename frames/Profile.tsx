@@ -14,19 +14,19 @@ const Profile = () => {
                 <div className="pb-[100%] w-full bg-white dark:bg-dark duration-300" />
                 {/* text-[0px] because for some strange reason inline block adds spaces... */}
                 <div className="top-[4px] left-[4px] absolute w-[calc(100%-8px)] h-[calc(100%-8px)] text-[0px] rounded-full overflow-hidden">
-                    <Image src={profile} />
+                    <Image src={profile} layout="fill" objectFit="cover" priority={true} alt="Profile Banner" />
                 </div>
             </div>
             <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl md:text-lg self-end pr-1 pb-1 pt-4"> 
-                <a className="flex items-center space-x-3" href="https://github.com/kevinMEH">
+                <a aria-label="GitHub Link" className="flex items-center space-x-3" href="https://github.com/kevinMEH">
                     <FontAwesomeIcon icon={faGithub} className="md:pb-[2px]" />
                     <p className="hidden font-mono font-medium text-sm md:block">GitHub</p>
                 </a>
-                <a className="flex items-center space-x-3" href="https://liaogg.medium.com">
+                <a aria-label="Medium Link" className="flex items-center space-x-3" href="https://liaogg.medium.com">
                     <FontAwesomeIcon icon={faMedium} className="md:pb-[2px]" />
                     <p className="hidden font-mono font-medium text-sm md:block">Medium</p>
                 </a>
-                <a className="flex items-center space-x-3" href="mailto:hello@liao.gg">
+                <a aria-label="Email Link" className="flex items-center space-x-3" href="mailto:hello@liao.gg">
                     <FontAwesomeIcon icon={faEnvelope} className="md:pb-[2px]" />
                     <p className="hidden font-mono font-medium text-sm md:block">Contact</p>
                 </a>
