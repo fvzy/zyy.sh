@@ -14,21 +14,21 @@ module.exports = {
             "current": "currentColor",
 
             "white": "#FFFFFF",
-            "dark": "#111111",
+            "dark": "#1e1e1f",
             "black": "#000000",
             "off-white": "#EDEDF0",
-            "off-black": "#242424",
+            "off-black": "#3D3D3D",
             "main": {
                 light: "#363B40",
-                dark: "#858A8F"
+                dark: "#acb4bd"
             },
             "sub": {
                 light: "#4B5258",
-                dark: "#676C70"
+                dark: "#949ba1"
             },
             "quiet": {
                 light: "#5F6266",
-                dark: "#565A5D"
+                dark: "#888f94"
             }
         },
         fontFamily: {
