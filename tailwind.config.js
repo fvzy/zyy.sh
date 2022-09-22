@@ -14,10 +14,10 @@ module.exports = {
             "current": "currentColor",
 
             "white": "#FFFFFF",
-            "dark": "#1e1e1f",
+            "dark": "#131825",
             "black": "#000000",
             "off-white": "#EDEDF0",
-            "off-black": "#3D3D3D",
+            "off-black": "#2c313d",
             "main": {
                 light: "#363B40",
                 dark: "#acb4bd"
