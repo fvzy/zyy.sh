@@ -15,18 +15,21 @@ const Home = () => {
             <title>kevinMEH | Portfolio</title>
             <meta name="description" content="Portfolio of Software Engineer Kevin Liao" />
             <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
-            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#191919" />
+            <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131825" />
         </Head>
-        <Wrapper>
-            <Banner />
-            <div className="px-7 md:px-9 space-y-8 md:space-y-11 pb-36 md:pb-44">
-                <Profile />
-                <Skills />
-                <Projects />
-                <Contact />
+            <Wrapper>
+                <Banner />
+                <div className="px-7 md:px-9 space-y-8 md:space-y-11 pb-36 md:pb-44">
+                    <Profile />
+                    <Skills />
+                    <Projects />
+                    <Contact />
+                </div>
+                <Footer />
+            </Wrapper>
+            <div className="relative">
+                <div className="bottom-gradient opacity-5 md:opacity-10 dark:opacity-10" />
             </div>
-            <Footer />
-        </Wrapper>
         </>
     )
 }

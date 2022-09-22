@@ -6,6 +6,17 @@ html, body {
     height: 100%;
 }
 
+.bottom-gradient {
+    position: absolute;
+    height: 1500px;
+    bottom: 0%;
+    width: 100%;
+    z-index: -51;
+    /* opacity: 15%; */
+    background: conic-gradient(from -92deg at 50% 200%, #9B6DFF, #4d94ff, #1FC5C9 184deg);
+    mask-image: radial-gradient(ellipse 2000px 1500px at 50% 100%, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.33) 27%, rgba(0, 0, 0, 0) 66%);
+}
+
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
