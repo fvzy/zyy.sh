@@ -20,15 +20,15 @@ module.exports = {
             "off-black": "#2c313d",
             "main": {
                 light: "#363B40",
-                dark: "#acb4bd"
+                dark: "#EAEAEA"
             },
             "sub": {
                 light: "#4B5258",
-                dark: "#949ba1"
+                dark: "#aeb4c4"
             },
             "quiet": {
                 light: "#5F6266",
-                dark: "#888f94"
+                dark: "#9ba2b3"
             }
         },
         fontFamily: {
