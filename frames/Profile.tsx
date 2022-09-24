@@ -14,7 +14,7 @@ const Profile = () => {
                 <div className="pb-[100%] w-full bg-white dark:bg-dark duration-300" />
                 {/* text-[0px] because for some strange reason inline block adds spaces... */}
                 <div className="top-[4px] left-[4px] absolute w-[calc(100%-8px)] h-[calc(100%-8px)] text-[0px] rounded-full overflow-hidden">
-                    <Image src={profile} layout="fill" objectFit="cover" priority={true} alt="Profile Banner" />
+                    <Image src={profile} layout="fill" sizes="33vw" objectFit="cover" priority={true} alt="Profile Banner" />
                 </div>
             </div>
             <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl md:text-lg self-end pr-1 pb-1 pt-4"> 
