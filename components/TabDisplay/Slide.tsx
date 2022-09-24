@@ -24,7 +24,7 @@ const Slide = ({ skillGroups, active }: SlideProps) => {
 
     return(
     // NOTE: Padding and negative margin should match wrapper div side margins
-    <div className={"absolute overflow-scroll flex justify-between -mx-7 px-7 space-x-6 no-scrollbar transition-opacity left-0 right-0 " + (active ? "z-10 opacity-100 " : "fade opacity-0 ")}>
+    <div className={"absolute overflow-scroll flex justify-between -mx-7 pl-7 space-x-6 no-scrollbar transition-opacity left-0 right-0 " + (active ? "z-10 opacity-100 " : "fade opacity-0 ")}>
         {skillGroups.map(({title, skills}, i) => (
         <div className="min-w-[285px] flex-shrink-0 inline-block flex-1 px-[18px] pt-3 pb-4 border border-off-white dark:border-off-black rounded-md md:hover:bg-off-white md:dark:hover:bg-off-black !bg-opacity-25 transition-all" key={i}>
             <h2 className="font-mono font-semibold text-sub-light dark:text-sub-dark pb-2 md:pb-3">{ title }</h2>
@@ -38,7 +38,7 @@ const Slide = ({ skillGroups, active }: SlideProps) => {
             </ul>
         </div>
         ))}
-        <div className="!m-0"></div>
+        <div className="!m-0 pr-7"></div>
     </div>
     )
 }
