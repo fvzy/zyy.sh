@@ -8,13 +8,23 @@ html, body {
 
 .bottom-gradient {
     position: absolute;
-    height: 1500px;
     bottom: 0%;
+    height: 751px;
     width: 100%;
     z-index: -51;
-    /* opacity: 15%; */
-    background: conic-gradient(from -92deg at 50% 200%, #9B6DFF, #4d94ff, #1FC5C9 184deg);
-    mask-image: radial-gradient(ellipse 2000px 1500px at 50% 100%, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.33) 27%, rgba(0, 0, 0, 0) 66%);
+    background: conic-gradient(from -92deg at 50% 115%, #E06794, #586AF7, #0FE8E3 184deg);
+    mask-image: radial-gradient(ellipse 1000px 750px at 50% 100%, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 66%);
+}
+    
+@media (min-width: 600px) {
+    .bottom-gradient {
+        height: 1001px;
+        mask-image: radial-gradient(ellipse 2000px 1000px at 50% 100%, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 66%);
+    }
+}
+
+.dark .bottom-gradient-dark {
+    background: conic-gradient(from -92deg at 50% 115%, #381E28, #1C1F3B, #183F3E 184deg);
 }
 
 .no-scrollbar::-webkit-scrollbar {

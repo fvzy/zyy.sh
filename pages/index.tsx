@@ -28,7 +28,7 @@ const Home = () => {
                 <Footer />
             </Wrapper>
             <div className="relative">
-                <div className="bottom-gradient opacity-5 md:opacity-10 dark:opacity-10" />
+                <div className="bottom-gradient bottom-gradient-dark opacity-25 md:opacity-30 dark:opacity-100" />
             </div>
         </>
     )
