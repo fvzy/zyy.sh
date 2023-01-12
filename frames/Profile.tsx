@@ -13,9 +13,7 @@ const Profile = () => {
             <div className="relative min-w-[80px] w-[min(30%,128px)] h-[min(30%,128px)] mt-[max(-18%,-80px)] rounded-full overflow-hidden">
                 <div className="pb-[100%] w-full bg-white dark:bg-dark" />
                 {/* text-[0px] because for some strange reason inline block adds spaces... */}
-                <div className="top-[4px] left-[4px] absolute w-[calc(100%-8px)] h-[calc(100%-8px)] text-[0px] rounded-full overflow-hidden">
-                    <Image src={profile} layout="fill" sizes="33vw" objectFit="cover" priority={true} alt="Profile Banner" />
-                </div>
+                <Image src={profile} sizes="33vw" className="top-[4px] left-[4px] absolute w-[calc(100%-8px)] h-[calc(100%-8px)] text-[0px] rounded-full overflow-hidden object-cover" priority={true} alt="Profile Picture" />
             </div>
             {/* md:text-lg */}
             <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl self-end pr-1 pb-1 pt-4 md:pt-5">
