@@ -3,7 +3,7 @@ import Image from "next/image";
 import profile from "../images/temp-pfp.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faMedium } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faMedium, faMastodon } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Profile = () => {
@@ -17,18 +17,23 @@ const Profile = () => {
                     <Image src={profile} layout="fill" sizes="33vw" objectFit="cover" priority={true} alt="Profile Banner" />
                 </div>
             </div>
-            <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl md:text-lg self-end pr-1 pb-1 pt-4"> 
+            {/* md:text-lg */}
+            <div className="flex space-x-7 text-sub-light dark:text-sub-dark text-2xl self-end pr-1 pb-1 pt-4 md:pt-5">
                 <a aria-label="GitHub Link" className="flex items-center space-x-3" href="https://github.com/kevinMEH">
                     <FontAwesomeIcon icon={faGithub} className="md:pb-[2px]" />
-                    <p className="hidden font-mono font-medium text-sm md:block">GitHub</p>
+                    {/* <p className="hidden font-mono font-medium text-sm md:block">GitHub</p> */}
                 </a>
                 <a aria-label="Medium Link" className="flex items-center space-x-3" href="https://liaogg.medium.com">
                     <FontAwesomeIcon icon={faMedium} className="md:pb-[2px]" />
-                    <p className="hidden font-mono font-medium text-sm md:block">Medium</p>
+                    {/* <p className="hidden font-mono font-medium text-sm md:block">Medium</p> */}
+                </a>
+                <a aria-label="Mastodon Link" className="flex items-center space-x-3" href="https://mastodon.social/@kmeh" rel="me">
+                    <FontAwesomeIcon icon={faMastodon} className="md:pb-[2px]" />
+                    {/* <p className="hidden font-mono font-medium text-sm md:block">Mastodon</p> */}
                 </a>
                 <a aria-label="Email Link" className="flex items-center space-x-3" href="mailto:hello@liao.gg">
                     <FontAwesomeIcon icon={faEnvelope} className="md:pb-[2px]" />
-                    <p className="hidden font-mono font-medium text-sm md:block">Contact</p>
+                    {/* <p className="hidden font-mono font-medium text-sm md:block">Contact</p> */}
                 </a>
             </div>
         </div>
