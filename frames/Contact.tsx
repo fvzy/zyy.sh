@@ -12,7 +12,7 @@ const Contact = () => {
                 projects. Click the button below to send me an email, and let's
                 start working!
             </p>
-            <a href="mailto:hello@liao.gg" className="mt-4 inline-flex text-sub-light dark:text-sub-dark items-center space-x-3 border-quiet-light dark:border-quiet-dark !border-opacity-40 border transition-colors duration-300 py-3 px-6 rounded-lg text-sm">
+            <a href="mailto:hello@liao.gg" className="mt-4 inline-flex text-sub-light dark:text-sub-dark items-center space-x-3 md:hover:bg-off-white md:dark:hover:bg-off-black !bg-opacity-25 border-quiet-light dark:border-quiet-dark !border-opacity-40 border transition-colors duration-300 py-3 px-6 rounded-lg text-sm">
                 <FontAwesomeIcon icon={faEnvelope} className="pb-[2px]" /><p className="font-mono font-semibold">Email Me</p>
             </a>
         </div>
