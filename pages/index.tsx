@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <>
         <Head>
-            <title>kevinMEH | Portfolio</title>
-            <meta name="description" content="Portfolio of Software Engineer Kevin Liao" />
+            <title>Kevin Liao</title>
+            <meta name="description" content="Kevin Liao's Portfolio" />
             <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
             <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131825" />
         </Head>
