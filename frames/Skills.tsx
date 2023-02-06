@@ -11,7 +11,6 @@ const Skills = () => {
             skillGroups: [{
                 title: "Languages:",
                 skills: [
-                    [language, "Java"],
                     [language, "JavaScript, TypeScript"],
                     [language, "Python"],
                     [language, "C & C++"],

@@ -12,8 +12,8 @@ const Home = () => {
     return (
         <>
         <Head>
-            <title>Kevin Liao</title>
-            <meta name="description" content="Kevin Liao's Portfolio" />
+            <title>Ditzzy</title>
+            <meta name="description" content="Ditzzy's Portfolio" />
             <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF" />
             <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131825" />
         </Head>
@@ -23,7 +23,7 @@ const Home = () => {
                     <Profile />
                     <Skills />
                     <Projects />
-                    <Contact />
+                 
                 </div>
                 <Footer />
             </Wrapper>
